@@ -76,3 +76,4 @@ Stack trace:
 [03-Mar-2023 22:21:07 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\dydy\Documents\Code\deconnexion.php on line 3
 [03-Mar-2023 22:21:27 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\dydy\Documents\Code\deconnexion.php on line 3
 [03-Mar-2023 22:21:46 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\dydy\Documents\Code\deconnexion.php on line 3
+[03-Mar-2023 23:21:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\pdo_firebird (Le module spécifié est introuvable), ext\php_pdo_firebird.dll (Le module spécifié est introuvable)) in Unknown on line 0

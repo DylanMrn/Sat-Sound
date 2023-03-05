@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0 1 728px;
+    min-width: 0px;
+}
+
+#end {
+    min-width: 225px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#search-form {
+    height: 40px;
+    position: relative;
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    color: white;
+    padding-right: 20px;
+}
+
+img {
+    width: 50px;
+}
+
+.container {
+    padding: 10px 50px 0 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search {
+    position: relative;
+    align-items: center;
+    border-radius: 40px 0 0 40px;
+    padding: 0px 4px 0px 16px;
+    margin-left: 32px;
+    flex: 1;
+    flex-basis: 1e-9px;
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+}
+
+li {
+    padding-left: .57143em!important;
+    padding-right: .57143em!important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button  {
+    /*color: white;*/
+    margin-left: 20px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: solid 1px white;
+}
