@@ -1,0 +1,33 @@
+#my-carousel .item img {
+    width: 100%;
+}
+
+.owl-next, .owl-prev {
+    width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+}
+.owl-prev {
+  left: 10px;
+}
+.owl-next {
+    right: 10px;
+}
+
+
+.navigation-img-wrapper .navigator {
+    flex: auto;
+    margin-left: 2px;
+    text-align:center;
+    display:inline-block;
+    width:150px;
+    height:100px;
+    text-align : center;
+    background-color : white;
+    line-height:100px;
+    color:black;
+    font-size:50px;
+    cursor:pointer;
+}

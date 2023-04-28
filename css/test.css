@@ -1,0 +1,17 @@
+#owl-demo .item h1{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align:center;
+  }
+  #owl-demo .item{
+    padding:40px 0;
+  }
+  
+  .slide-progress {
+    width: 0;
+    max-width: 100%;
+    height: 4px;
+    background: red;
+  }
+  
