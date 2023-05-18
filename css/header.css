@@ -68,6 +68,7 @@ ul {
     align-items: center;
     color: white;
     list-style-type: none;
+    margin: 0;
 }
 
 li {
@@ -81,17 +82,36 @@ a {
 
 button  {
     /*color: white;*/
-    margin-left: 20px;
-    
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
 }
 
+.connect {
+    margin: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+}
 
+.register {
+    border-left: solid 1px white;
+    margin: 10px;
+    padding-left: 20px;
+}
 
 .button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-left: solid 1px white;
 }
 
 .searchbar {
@@ -169,3 +189,47 @@ button  {
     animation-direction: alternate;
     animation-fill-mode: forwards;
 }
+
+.card {
+    width: 160px;
+    margin: 0px auto;
+    background-color: white;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.play {
+    display:inline-block;
+    place-items:center;
+    cursor:pointer;
+    padding:2rem;
+    background:#efeeee;
+    border-radius:50%;
+    margin: 40px 40px 20px 40px;
+}
+
+.title {
+    text-align: center;
+}
+
+.sub-title {
+    text-align: center;
+}
+
+#owl-demo .item h1{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align:center;
+  }
+  #owl-demo .item{
+    padding:40px 0;
+  }
+  
+  .slide-progress {
+    width: 0;
+    max-width: 100%;
+    height: 4px;
+    background: #CDDC39;
+  }
+  
